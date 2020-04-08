@@ -1,3 +1,7 @@
+/*
+Variable and Data Types
+*/
+
 // console.log("Hello World!!!");
 
 var firstName = "John";
