@@ -48,7 +48,13 @@ console.log(job);
 
 
 //BASIC OPERATORS.
-
-var yearJohn = 2018-28;
+var year = 2020
+var yearJohn = year-28;
+var yearMark = year-33;
 
 console.log(yearJohn);
+
+console.log(year + 2);
+
+console.log(year / 10);//Logical Variable
+
