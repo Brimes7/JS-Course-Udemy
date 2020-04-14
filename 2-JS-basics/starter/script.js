@@ -56,5 +56,5 @@ console.log(yearJohn);
 
 console.log(year + 2);
 
-console.log(year / 10);//Logical Variable
+console.log(year / 10);//Logical Variables
 
