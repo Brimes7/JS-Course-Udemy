@@ -79,11 +79,31 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 GOOD LUCK 😀
 */
 
-var markMass = 70;
-var johnMass = 80;
+// var markMass = 70;
+// var johnMass = 80;
 
-var markHeight = 1.2;
-var johnHeight = 1.5;
+// var markHeight = 1.2;
+// var johnHeight = 1.5;
 
-markBMI = markMass/(markHeight * markHeight);
-johnBMI = johnMass/(johnHeight * johnHeight);
+// markBMI = markMass/(markHeight * markHeight);
+// johnBMI = johnMass/(johnHeight * johnHeight);
+
+// console.log(markBMI, johnBMI);
+
+// var MarkHigher = markBMI > johnBMI;
+
+// console.log(MarkHigher);
+
+// console.log("Is Mark's BMI higher than John's?" + MarkHigher);
+
+
+var firstName = "John";
+var civilStatus = "single";
+
+if(civilStatus === "married"){
+    console.log(firstName + ' is married');
+} else {
+    console.log(firstName + " Will hopefully marry soon");
+}
+
+var isMarried = false;
