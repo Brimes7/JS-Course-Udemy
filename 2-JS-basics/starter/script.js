@@ -47,17 +47,43 @@ console.log(job);
 
 
 
-//BASIC OPERATORS.
-var year = 2020
-var yearJohn = year-28;
-var yearMark = year-33;
+// //BASIC OPERATORS.
+// var year = 2020
+// var yearJohn = year-28;
+// var yearMark = year-33;
 
-console.log(yearJohn);
+// console.log(yearJohn);
 
-console.log(year + 2);
+// console.log(year + 2);
 
-console.log(year / 10);
+// console.log(year / 10);
 
-//Logical Variables
-var johnOlder = yearJohn > yearMark;
-console.log(johnOlder);
+// //Logical Variables
+// var johnOlder = yearJohn > yearMark;
+// console.log(johnOlder);
+
+// //Operator Precedence
+
+/*****************************
+* CODING CHALLENGE 1
+*/
+
+/*
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs
+3. Create a boolean variable containing information about whether Mark has a higher BMI than John.
+4. Print a string to the console containing the variable from step 3. (Something like "Is Mark's BMI higher than John's? true"). 
+
+GOOD LUCK 😀
+*/
+
+var markMass = 70;
+var johnMass = 80;
+
+var markHeight = 1.2;
+var johnHeight = 1.5;
+
+markBMI = markMass/(markHeight * markHeight);
+johnBMI = johnMass/(johnHeight * johnHeight);
